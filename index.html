@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contacts</h1>
+
+      <form class="form">
+        <label for="inpName">Name:</label>
+        <input type="text" class="inpName" id="inpName" />
+
+        <label for="intUrl">Image URL:</label>
+        <input type="text" class="intUrl" id="intUrl" />
+
+        <label for="inpNumber">Phone number:</label>
+        <input type="text" class="inpNumber" id="inpNumber" />
+
+        <button type="submit" class="btnSave">Save</button>
+        <button type="button" class="btnCancel">Cancel</button>
+      </form>
+
+      <ul class="contact-list"></ul>
+    </div>
+    <div class="modal">
+      <nav class="modal_nav">
+        <h1>Modal title</h1>
+        <button>x</button>
+      </nav>
+      <hr />
+      <section class="modal_body">
+        <p>Model body Text</p>
+        <input type="name" class="inp1" />
+        <input type="url" class="inp2" />
+        <input type="tel" class="inp3" />
+        <button>Save</button>
+      </section>
+      <footer class="modal_footer">
+        <button>close</button>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
